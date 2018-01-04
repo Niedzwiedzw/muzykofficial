@@ -3,7 +3,7 @@
     <keep-alive>
       <iframe
         width="75%"
-        height="500"
+        height="400"
         frameborder="0" style="border:0"
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBSL2snRg9T8RrAFEKNKgb3ICF6ypfsplM&q=place_id:ChIJbS9XJx41A0cRaSfQ1Q-SwlA" allowfullscreen>
       </iframe>

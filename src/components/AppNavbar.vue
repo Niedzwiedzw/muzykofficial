@@ -50,18 +50,18 @@
         ],
         mobileToggled: false,
         menuItems: [
-          {
-            'text': 'bio',
-            'link': '/bio'
-          },
-          {
-            'text': 'contact',
-            'link': '/contact'
-          },
-          {
-            'text': 'instruments',
-            'link': '/instruments'
-          }
+//          {
+//            'text': 'bio',
+//            'link': '/bio'
+//          },
+//          {
+//            'text': 'contact',
+//            'link': '/contact'
+//          },
+//          {
+//            'text': 'instruments',
+//            'link': '/instruments'
+//          }
         ]
       }
     }
