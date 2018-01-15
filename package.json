@@ -15,9 +15,11 @@
     "bootstrap-vue": "^1.4.0",
     "vue": "^2.5.2",
     "vue-awesome": "^2.3.4",
+    "vue-i18n": "^7.4.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.2.1",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",

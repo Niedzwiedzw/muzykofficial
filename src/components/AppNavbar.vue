@@ -15,14 +15,20 @@
           class="menu">
           <icon name="bars" scale="2"></icon>
         </div>
+
         <div
-          v-for="item in menuItems"
-          @click="$router.push(item.link)"
-          :class="menuClasses">{{ item.text }}</div>
-        <!--<div :class="menuClasses">contact</div>-->
-        <!--<div :class="menuClasses">location</div>-->
-        <!--<div :class="menuClasses">instruments</div>-->
-        <app-togglable-menu :menuItems="menuItems" v-if="mobileToggled"></app-togglable-menu>
+          @click="$router.push('/bio')"
+          :class="menuClasses">{{ $t('menu_items.bio') }}</div>
+
+        <div
+          @click="$router.push('/contact')"
+          :class="menuClasses">{{ $t('menu_items.contact') }}</div>
+
+        <div
+          @click="$i18n.locale = $i18n.locale === 'en' ? 'pl' : 'en'"
+          :class="menuClasses">{{ $t('menu_items.language_toggle') }}</div>
+
+        <app-togglable-menu v-if="mobileToggled"></app-togglable-menu>
       </div>
     </div>
   </div>
@@ -50,14 +56,14 @@
         ],
         mobileToggled: false,
         menuItems: [
-//          {
-//            'text': 'bio',
-//            'link': '/bio'
-//          },
-//          {
-//            'text': 'contact',
-//            'link': '/contact'
-//          },
+          {
+            'text': 'bio',
+            'link': '/bio'
+          },
+          {
+            'text': 'contact',
+            'link': '/contact'
+          }
 //          {
 //            'text': 'instruments',
 //            'link': '/instruments'
@@ -74,7 +80,7 @@
     height: 3em;
     line-height: 3em;
 
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
   }
   .menu > li {
     display: inline-block;

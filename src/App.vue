@@ -3,6 +3,8 @@
     <div class="container-fluid">
       <app-navbar></app-navbar>
       <router-view/>
+
+      <!--<p>{{ $t("message.hello") }}</p>-->
     </div>
   </div>
 </template>
@@ -48,9 +50,21 @@
 
   .hoverable {
     cursor: pointer;
+    text-decoration: none;
+    color: inherit;
   }
 
   .hoverable:hover {
     opacity: 0.55;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .white-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 1em
   }
 </style>
