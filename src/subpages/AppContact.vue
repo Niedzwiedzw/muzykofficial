@@ -22,6 +22,13 @@
         </a>
       </div>
     </div>
+    <div class="row">
+      <div class="col-12">
+        <a class="contact-item hoverable" href="https://www.instagram.com/klub_muzyk/" target="_blank">
+          <icon class="contact-icon" name="instagram" scale="3"></icon>klub_muzyk
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
